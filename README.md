@@ -29,7 +29,7 @@ No
 
 Desktop Views
 
-![Alt text](<Desktop Screen 1.png>)
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Desktop%20Screen%201.png)
 
 ![Alt text](<Desktop Screen 2.png>)
 
