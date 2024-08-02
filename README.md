@@ -31,11 +31,11 @@ Desktop Views
 
 ![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Desktop%20Screen%201.png)
 
-![Alt text](<Desktop Screen 2.png>)
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Desktop%20Screen%202.png)
 
-![Alt text](<Desktop Screen 3.png>)
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Desktop%20Screen%203.png)
 
-![Alt text](<Desktop Screen 4.png>)
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Desktop%20Screen%204.png)
 
 ## Project Folder Structure
 
