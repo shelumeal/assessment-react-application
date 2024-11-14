@@ -30,15 +30,31 @@ Web application using React and TypeScript
 
 ## Screen Shot(s)
 
-Desktop Views
+1) Landing Page
 
-![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Desktop%20Screen%201.png)
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Screen%201.png)
 
-![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Desktop%20Screen%202.png)
+2) User focuses on the search box and typing.
+   Suggestions will appear only after typing more than 2 characters and pausing for 1 second
 
-![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Desktop%20Screen%203.png)
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Screen%202.png)
 
-![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Desktop%20Screen%204.png)
+3) Display sugesstion list
+
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Screen%203.png)
+
+3) Select a suggestion
+
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Screen%204.png)
+
+4) Display search results
+
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Screen%205.png)
+
+5) Display error message in case of network failure
+   
+![Alt text](https://github.com/shelumeal/assessment-react-application/blob/main/screenshots/Screen%207.png)
+
 
 ## Project Folder Structure
 
