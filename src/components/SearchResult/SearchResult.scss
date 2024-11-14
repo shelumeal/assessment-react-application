@@ -1,0 +1,87 @@
+@import "../../common/colors.scss";
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+
+  .panel {
+    width: 75rem;
+
+    .result-summary {
+      font-weight: 600;
+      font-size: 18px;
+      color: $font-color-secondary;
+    }
+
+    .result-card {
+      margin-top: 2em;
+      .title {
+        color: $font-color-primary;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .description {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        width: 75%;
+        text-align: justify;
+      }
+      .link {
+        font-size: 14px;
+        color: $font-color-secondary;
+        text-decoration: none;
+        display: inline-block;
+        max-width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .link:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .message-card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4rem;
+      color: $font-color-secondary;
+      flex-direction: column;
+      gap: 16px;
+
+      i{
+        font-size: 32px;
+      }
+
+      p{
+        font-size: 18px;
+      }
+    }
+
+    .highlight {
+      font-weight: 700;
+    }
+  }
+}
+
+
+/* Adjust styles for mobile devices */
+@media (max-width: 575.98px) {
+  .description {
+    width: 100% !important;
+  }
+
+  .message-card{
+    text-align: center;
+  }
+
+  .link {
+    max-width: 10rem; /* Adjust as needed */
+  }
+}

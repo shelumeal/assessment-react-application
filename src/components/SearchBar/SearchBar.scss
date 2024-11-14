@@ -1,0 +1,83 @@
+@import "../../common/colors.scss";
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 8px 4px rgba(224, 228, 229, 0.35);
+
+  .panel{
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 75rem;
+  }
+
+  .button-search {
+    background-color: $primary-color;
+
+    i {
+      margin-right: 8px;
+    }
+  }
+
+  .form-control{
+    border-right: none;
+  }
+
+  .form-control:focus{
+    box-shadow: none !important;
+  }
+
+
+  .form-control .input-group>.form-control:focus{
+    border: $border-width-primary solid $border-color-primary !important;
+    border-right: none;
+  }
+
+  .input-group-text{
+    border-left: none; 
+  }
+
+  .icon-clear{
+    background-color: transparent;
+  }
+
+  .icon-clear:hover{
+    cursor: pointer;
+  }
+
+  .suggestions{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 8px 4px rgba(224, 228, 229, 0.35);
+  
+    .text{
+      padding-left: 10px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+  
+    .text:hover{
+      cursor: pointer;
+      background-color: #f8f8f8;
+    }
+
+    .highlight{
+      font-weight: 600;
+    }
+  
+  }
+}
+
+/* Adjust panel width for mobile devices */
+@media (max-width: 575.98px) {
+  .panel{
+    width: 24rem !important;
+  }
+}
+
+
